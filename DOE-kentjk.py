@@ -18,9 +18,9 @@ warnings.filterwarnings("ignore", message="kurtosistest only valid for n>=20")
 st.set_page_config(page_title="DOE | kentjkdigitals", layout="wide")
 hide_st_style = """
                 <style>
-                #MainMenu {visibility:visible;}
+                #MainMenu {visibility:hidden;}
                 footer {visibility:hidden;}
-                header {visibility:visible;}
+                header {visibility:hidden;}
                 .block-container {padding-top: 0rem; padding-bottom: 0rem;}
                 </style>
                 """
